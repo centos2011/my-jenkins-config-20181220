@@ -1,0 +1,71 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description>PDAX Frontend Production Deployment</description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>2</daysToKeep>
+        <numToKeep>5</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>git_branch</name>
+          <description>GIT branch</description>
+          <defaultValue>master</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <scm class="hudson.plugins.git.GitSCM" plugin="git@3.9.1">
+    <configVersion>2</configVersion>
+    <userRemoteConfigs>
+      <hudson.plugins.git.UserRemoteConfig>
+        <url>https://github.com/PixoPH/pixo-web</url>
+        <credentialsId>04faf754-5885-4ea6-ace1-dac4fc77b2c9</credentialsId>
+      </hudson.plugins.git.UserRemoteConfig>
+    </userRemoteConfigs>
+    <branches>
+      <hudson.plugins.git.BranchSpec>
+        <name>*/master</name>
+      </hudson.plugins.git.BranchSpec>
+    </branches>
+    <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+    <submoduleCfg class="list"/>
+    <extensions/>
+  </scm>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>
+
+/usr/bin/aws deploy push --application-name pdax-web-prod --s3-location s3://pdax-circleci/pdax-web-prod --region=ap-southeast-1 &gt; deploy.sh
+
+sed -i &apos;1d&apos; deploy.sh
+
+sed -i &quot;s#&lt;deployment-group-name&gt;#pdax-web-prod-v2#g&quot; deploy.sh
+
+sed -i &apos;s/--deployment-config-name &lt;deployment-config-name&gt;/--region=ap-southeast-1 --output text/&apos; deploy.sh
+
+sed -i &apos;s#&lt;description&gt;#&quot;PDAX Web Production&quot;#g&apos; deploy.sh
+
+cat deploy.sh
+
+#Comment the next line to deploy in AWS via Code-deploy
+#/bin/sh -x deploy.sh</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>
