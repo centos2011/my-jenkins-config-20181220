@@ -15,7 +15,7 @@
       <internalDir>remoting</internalDir>
       <failIfWorkDirIsMissing>false</failIfWorkDirIsMissing>
     </workDirSettings>
-    <launched>false</launched>
+    <launched>true</launched>
   </launcher>
   <label>jenkins-slave</label>
   <nodeProperties/>
