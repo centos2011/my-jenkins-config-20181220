@@ -3,7 +3,9 @@
   <fullName>Deployer</fullName>
   <properties>
     <jenkins.security.ApiTokenProperty>
-      <apiToken>{AQAAABAAAAAwBcRFHZ84wAeu3LnxJYfFTc+SkznLXQIIyD+ff0Z4m2F1Ddhsi3xuYxX3tbgsXI+CuyH2ut9AEkls92FzV98OFQ==}</apiToken>
+      <tokenStore>
+        <tokenList/>
+      </tokenStore>
     </jenkins.security.ApiTokenProperty>
     <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@2.1.18">
       <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
@@ -31,7 +33,7 @@
     <hudson.security.HudsonPrivateSecurityRealm_-Details>
       <passwordHash>#jbcrypt:$2a$10$pdcp9H7FPwG70wqqkZ5V1uUfQvS99G8iMsx.C/ImUhegEb7e/r0ga</passwordHash>
     </hudson.security.HudsonPrivateSecurityRealm_-Details>
-    <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.21">
+    <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.22">
       <emailAddress>deployer@pdax.ph</emailAddress>
     </hudson.tasks.Mailer_-UserProperty>
     <jenkins.security.LastGrantedAuthoritiesProperty>
@@ -40,5 +42,8 @@
       </roles>
       <timestamp>1533027452479</timestamp>
     </jenkins.security.LastGrantedAuthoritiesProperty>
+    <hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty plugin="email-ext@2.63">
+      <triggers/>
+    </hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty>
   </properties>
 </user>
