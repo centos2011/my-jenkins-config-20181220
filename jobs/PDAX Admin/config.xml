@@ -9,7 +9,6 @@
     <userRemoteConfigs>
       <hudson.plugins.git.UserRemoteConfig>
         <url>https://github.com/PixoPH/pdax-admin</url>
-        <credentialsId>e48e72e1-6cb6-4d63-ac90-9263f19ea06e</credentialsId>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
     <branches>
