@@ -145,7 +145,7 @@
       <skipTlsVerify>true</skipTlsVerify>
       <addMasterProxyEnvVars>false</addMasterProxyEnvVars>
       <capOnlyOnAlivePods>false</capOnlyOnAlivePods>
-      <jenkinsUrl>http://172.17.0.6:8080</jenkinsUrl>
+      <jenkinsUrl>http://172.17.0.5:8080</jenkinsUrl>
       <containerCap>10</containerCap>
       <retentionTimeout>5</retentionTimeout>
       <connectTimeout>0</connectTimeout>
