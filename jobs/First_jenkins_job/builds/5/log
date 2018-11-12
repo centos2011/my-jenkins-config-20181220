@@ -1,0 +1,9 @@
+Started by user [8mha:////4EWykbP4YzBszZ2qinLCbMUnTy/0F1DuQgRhGEB/TnD+AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYe/dLi1CL9lNS8vMxiADJSOvPBAAAA[0mDennis Joson
+Agent [8mha:////4C5bXgsrba7Kv9gN4MxPwHBLf6VhERudSsZurWJcYBf6AAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZZ/eT83ILSktQi/azUvOzMvGLd4pzEslTdpOKCglwAvTqn6NIAAAA=[0mjenkins-slave-bsppm is provisioned from template Kubernetes Pod Template
+Agent specification [Kubernetes Pod Template] (jenkins-slave): 
+* [jenkins-slave] jenkinsci/jnlp-slave
+
+Building remotely on [8mha:////4C5bXgsrba7Kv9gN4MxPwHBLf6VhERudSsZurWJcYBf6AAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZZ/eT83ILSktQi/azUvOzMvGLd4pzEslTdpOKCglwAvTqn6NIAAAA=[0mjenkins-slave-bsppm (jenkins-slave) in workspace /home/jenkins/workspace/First_jenkins_job
+[First_jenkins_job] $ /bin/sh -xe /tmp/jenkins5366847566129984013.sh
++ sleep 30
+Finished: SUCCESS
