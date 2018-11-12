@@ -14,7 +14,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>sleep 30</command>
+      <command>sleep 1</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
