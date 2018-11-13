@@ -14,7 +14,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>whoami
+      <command>sudo su -
 #cd /root/jenkins/scm-sync-configuration/checkoutConfiguration &amp;&amp; \
 #git push git@github.com:centos2011/my-jenkins-config.git</command>
     </hudson.tasks.Shell>
