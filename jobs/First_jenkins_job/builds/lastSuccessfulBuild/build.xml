@@ -12,14 +12,14 @@
       </causeBag>
     </hudson.model.CauseAction>
   </actions>
-  <queueId>8</queueId>
-  <timestamp>1542076829342</timestamp>
-  <startTime>1542076829368</startTime>
+  <queueId>10</queueId>
+  <timestamp>1542077068242</timestamp>
+  <startTime>1542077068252</startTime>
   <result>SUCCESS</result>
-  <duration>16275</duration>
+  <duration>17244</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
-  <builtOn>jenkins-slave-0f326</builtOn>
+  <builtOn>jenkins-slave-50cjr</builtOn>
   <workspace>/home/jenkins/workspace/First_jenkins_job</workspace>
   <hudsonVersion>2.138.3</hudsonVersion>
   <scm class="hudson.scm.NullChangeLogParser"/>
