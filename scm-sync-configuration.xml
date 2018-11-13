@@ -5,8 +5,5 @@
   <noUserCommitMessage>true</noUserCommitMessage>
   <displayStatus>true</displayStatus>
   <commitMessagePattern>[message]</commitMessagePattern>
-  <manualSynchronizationIncludes>
-    <include>*jobs/**/**/**</include>
-    <include>*/jobs//config.xml</include>
-  </manualSynchronizationIncludes>
+  <manualSynchronizationIncludes/>
 </hudson.plugins.scm__sync__configuration.ScmSyncConfigurationPlugin>
