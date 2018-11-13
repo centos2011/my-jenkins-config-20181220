@@ -1,0 +1,9 @@
+Started by user [8mha:////4PmoPr/x4qQFm9iEo+Hj6QvC+I8pfHgLfAAWwWur5mw2AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYe/dLi1CL9lNS8vMxiADJSOvPBAAAA[0mDennis Joson
+Agent [8mha:////4O6m4e2npRaF3YjvKb7uabH4FXA9xxz1cOGwHo20nQFmAAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZZ/eT83ILSktQi/azUvOzMvGLd4pzEslTdMgvL3FwAkA71sdIAAAA=[0mjenkins-slave-v89mm is provisioned from template Kubernetes Pod Template
+Agent specification [Kubernetes Pod Template] (jenkins-slave): 
+* [jenkins-slave] jenkinsci/jnlp-slave
+
+Building remotely on [8mha:////4O6m4e2npRaF3YjvKb7uabH4FXA9xxz1cOGwHo20nQFmAAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZZ/eT83ILSktQi/azUvOzMvGLd4pzEslTdMgvL3FwAkA71sdIAAAA=[0mjenkins-slave-v89mm (jenkins-slave) in workspace /home/jenkins/workspace/First_jenkins_job
+[First_jenkins_job] $ /bin/sh -xe /tmp/jenkins205042119825880281.sh
++ sleep 5
+Finished: SUCCESS
