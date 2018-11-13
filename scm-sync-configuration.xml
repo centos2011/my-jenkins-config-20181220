@@ -12,6 +12,5 @@
     <include>secrets/jenkins.slaves.JnlpSlaveAgentProtocol.secret</include>
     <include>secrets/master.key</include>
     <include>node/**/nextBuildNumber</include>
-    <include>jobs/**/builds/**/**</include>
   </manualSynchronizationIncludes>
 </hudson.plugins.scm__sync__configuration.ScmSyncConfigurationPlugin>
