@@ -12,7 +12,7 @@
     <include>secrets/jenkins.slaves.JnlpSlaveAgentProtocol.secret</include>
     <include>secrets/master.key</include>
     <include>node/**/nextBuildNumber</include>
-    <include>jobs/**/builds/**/log</include>
+    <include>jobs/**/builds/**/**</include>
     <include>jobs/**/builds/**/changelog.xml</include>
     <include>jobs/**/builds/**/build.xml</include>
   </manualSynchronizationIncludes>
