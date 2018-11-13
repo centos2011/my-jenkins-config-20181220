@@ -13,7 +13,5 @@
     <include>secrets/master.key</include>
     <include>node/**/nextBuildNumber</include>
     <include>jobs/**/builds/**/**</include>
-    <include>jobs/**/builds/**/changelog.xml</include>
-    <include>jobs/**/builds/**/build.xml</include>
   </manualSynchronizationIncludes>
 </hudson.plugins.scm__sync__configuration.ScmSyncConfigurationPlugin>
