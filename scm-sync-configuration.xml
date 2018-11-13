@@ -5,13 +5,5 @@
   <noUserCommitMessage>true</noUserCommitMessage>
   <displayStatus>true</displayStatus>
   <commitMessagePattern>[message]</commitMessagePattern>
-  <manualSynchronizationIncludes>
-    <include>org.jenkinsci.plugins.workflow.flow.FlowExecutionList.xml</include>
-    <include>com.nirima.jenkins.plugins.docker.DockerPluginConfiguration.xml</include>
-    <include>nodes/*/config.xml</include>
-    <include>secrets/jenkins.slaves.JnlpSlaveAgentProtocol.secret</include>
-    <include>secrets/master.key</include>
-    <include>node/**/nextBuildNumber</include>
-    <include>jobs/**/builds/**/**</include>
-  </manualSynchronizationIncludes>
+  <manualSynchronizationIncludes/>
 </hudson.plugins.scm__sync__configuration.ScmSyncConfigurationPlugin>
