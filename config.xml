@@ -132,7 +132,7 @@
         </org.csanchez.jenkins.plugins.kubernetes.PodTemplate>
       </templates>
       <serverUrl>https://192.168.99.100:8443</serverUrl>
-      <skipTlsVerify>true</skipTlsVerify>
+      <skipTlsVerify>false</skipTlsVerify>
       <addMasterProxyEnvVars>false</addMasterProxyEnvVars>
       <capOnlyOnAlivePods>false</capOnlyOnAlivePods>
       <jenkinsUrl>http://172.17.0.5:8080</jenkinsUrl>
