@@ -5,7 +5,7 @@
     <smtpPort>465</smtpPort>
     <smtpUsername>dennis.joson@pdax.ph</smtpUsername>
     <smtpPassword>{AQAAABAAAAAgQJ5GhQBajZ7l5Mq1oVbZ8WNxvzGov4df7azYnw0nM5Mwk9EqnKsfKgiiLTWSvK+Q}</smtpPassword>
-    <useSsl>false</useSsl>
+    <useSsl>true</useSsl>
   </mailAccount>
   <addAccounts/>
   <charset>UTF-8</charset>
