@@ -1,7 +1,11 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson.plugins.emailext.ExtendedEmailPublisherDescriptor plugin="email-ext@2.63">
   <mailAccount>
-    <useSsl>false</useSsl>
+    <smtpHost>smtp.gmail.com</smtpHost>
+    <smtpPort>587</smtpPort>
+    <smtpUsername>dennis.joson@pdax.ph</smtpUsername>
+    <smtpPassword>{AQAAABAAAAAgpSxsFpS8vUd4LiWS0Acl9kCW7aHgduPTzLzXrD3KK+IiE8zSF5fx1RwenGl0PDpo}</smtpPassword>
+    <useSsl>true</useSsl>
   </mailAccount>
   <addAccounts/>
   <charset>UTF-8</charset>
