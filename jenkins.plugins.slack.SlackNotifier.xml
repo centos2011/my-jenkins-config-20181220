@@ -1,9 +1,9 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <jenkins.plugins.slack.SlackNotifier_-DescriptorImpl plugin="slack@2.3">
-  <baseUrl></baseUrl>
+  <baseUrl>https://slack-djworkspace.slack.com/services/hooks/jenkins-ci/</baseUrl>
   <teamDomain></teamDomain>
-  <token></token>
+  <token>Hy1sn9uL8wgEhQa51bLNv9WF</token>
   <tokenCredentialId></tokenCredentialId>
   <botUser>false</botUser>
-  <room></room>
+  <room>#jenkins</room>
 </jenkins.plugins.slack.SlackNotifier_-DescriptorImpl>
