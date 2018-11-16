@@ -1,0 +1,30 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>dennis</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.tasks.MailMessageIdAction plugin="mailer@1.22">
+      <messageId>&lt;2035760956.19.1542374369548.JavaMail.root@jenkins-7d89569cd4-gj8pz&gt;</messageId>
+    </hudson.tasks.MailMessageIdAction>
+  </actions>
+  <queueId>6</queueId>
+  <timestamp>1542374364481</timestamp>
+  <startTime>1542374364515</startTime>
+  <result>FAILURE</result>
+  <duration>9172</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>jenkins-slave-b8vc8</builtOn>
+  <workspace>/home/jenkins/workspace/First_jenkins_job</workspace>
+  <hudsonVersion>2.138.3</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>
