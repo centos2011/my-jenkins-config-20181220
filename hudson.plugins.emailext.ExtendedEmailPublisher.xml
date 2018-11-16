@@ -4,7 +4,7 @@
     <smtpHost>smtp.gmail.com</smtpHost>
     <smtpPort>587</smtpPort>
     <smtpUsername>dennis.joson@pdax.ph</smtpUsername>
-    <smtpPassword>{AQAAABAAAAAgpSxsFpS8vUd4LiWS0Acl9kCW7aHgduPTzLzXrD3KK+IiE8zSF5fx1RwenGl0PDpo}</smtpPassword>
+    <smtpPassword>{AQAAABAAAAAgOh/KQzZSrciqofEc4dmhfjOsv/3RJ3iYO2q1kysemKZ8zUvsnHz8to1wecmrdKMP}</smtpPassword>
     <useSsl>true</useSsl>
   </mailAccount>
   <addAccounts/>
