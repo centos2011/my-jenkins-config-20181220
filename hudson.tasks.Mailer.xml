@@ -2,7 +2,7 @@
 <hudson.tasks.Mailer_-DescriptorImpl plugin="mailer@1.22">
   <hudsonUrl>http://192.168.99.100:32471/</hudsonUrl>
   <smtpAuthUsername>AKIAJE3CYWW2RN7EDZPQ</smtpAuthUsername>
-  <smtpAuthPassword>{AQAAABAAAAAwarUPB/rtlOT8Mu2jmlkEHmZ/5RXq+XGntWN8YD+oeIW8xutt68Y7EZ9dw9vkp089Q5E5L/9uiy9rSjOu2jCm6w==}</smtpAuthPassword>
+  <smtpAuthPassword>{AQAAABAAAAAwrK2Qv6jhT7s1wxNNS2216EqNNPP1QZWrqMekHLNH4NdQ9VvHmQktZh3T/NUY8nFNBRq5vOQMhicUTjKwkVaUew==}</smtpAuthPassword>
   <smtpHost>email-smtp.us-east-1.amazonaws.com</smtpHost>
   <useSsl>false</useSsl>
   <smtpPort>587</smtpPort>
