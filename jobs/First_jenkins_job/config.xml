@@ -14,7 +14,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>sudo su -</command>
+      <command>sleep 5</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers>
