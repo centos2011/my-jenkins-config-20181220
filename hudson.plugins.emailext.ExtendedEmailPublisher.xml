@@ -2,7 +2,7 @@
 <hudson.plugins.emailext.ExtendedEmailPublisherDescriptor plugin="email-ext@2.63">
   <mailAccount>
     <smtpHost>smtp.gmail.com</smtpHost>
-    <smtpPort>587</smtpPort>
+    <smtpPort>465</smtpPort>
     <smtpUsername>dennis.joson@pdax.ph</smtpUsername>
     <smtpPassword>{AQAAABAAAAAgQJ5GhQBajZ7l5Mq1oVbZ8WNxvzGov4df7azYnw0nM5Mwk9EqnKsfKgiiLTWSvK+Q}</smtpPassword>
     <useSsl>true</useSsl>
