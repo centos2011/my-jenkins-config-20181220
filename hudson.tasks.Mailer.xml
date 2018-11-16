@@ -2,7 +2,7 @@
 <hudson.tasks.Mailer_-DescriptorImpl plugin="mailer@1.22">
   <hudsonUrl>http://192.168.99.100:32471/</hudsonUrl>
   <smtpAuthUsername>dennis.joson@pdax.ph</smtpAuthUsername>
-  <smtpAuthPassword>{AQAAABAAAAAg3uYHaZBuKyoeDW554VQYdz3VY1/SMYfNhgB0QlMVfFGvHu3uUJNdyXPZA2nU0i3l}</smtpAuthPassword>
+  <smtpAuthPassword>{AQAAABAAAAAgPKXfgGFYanPYM3HaXdZnyGkE/Boaeo13bsnEjbUGiEkxpZH1qar8iNI7TsKODhl1}</smtpAuthPassword>
   <smtpHost>smtp.gmail.com</smtpHost>
   <useSsl>true</useSsl>
   <smtpPort>465</smtpPort>
