@@ -14,7 +14,11 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>sudo sleep 1</command>
+      <command>whoami
+df -h
+uptime
+free -m
+uname -a</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers>
