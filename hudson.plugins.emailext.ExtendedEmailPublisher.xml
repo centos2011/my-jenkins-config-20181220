@@ -1,7 +1,11 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson.plugins.emailext.ExtendedEmailPublisherDescriptor plugin="email-ext@2.63">
   <mailAccount>
-    <useSsl>false</useSsl>
+    <smtpHost>email-smtp.us-east-1.amazonaws.com</smtpHost>
+    <smtpPort>587</smtpPort>
+    <smtpUsername>AKIAJE3CYWW2RN7EDZPQ</smtpUsername>
+    <smtpPassword>{AQAAABAAAAAwK11XC5bNLPiNIFe9YcCa3Z4NjepgXQmnULv7UdWrquISqnIEEC2ssdL+AnhJXTvUBaaL8Vma7UbGFfFQLD5cBg==}</smtpPassword>
+    <useSsl>true</useSsl>
   </mailAccount>
   <addAccounts/>
   <charset>UTF-8</charset>
