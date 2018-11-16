@@ -4,7 +4,7 @@
     <smtpHost>email-smtp.us-east-1.amazonaws.com</smtpHost>
     <smtpPort>587</smtpPort>
     <smtpUsername>AKIAJE3CYWW2RN7EDZPQ</smtpUsername>
-    <smtpPassword>{AQAAABAAAAAwvXJqvYYpp26RSBp4rKElu7Wbtb0WkqQiBMEVw+3fZ0u+S+8+IeNPJE/W85IPs5i6/3uerfOdghGcyDMu2J/TSA==}</smtpPassword>
+    <smtpPassword>{AQAAABAAAAAwEC5/RcPM1SzDEEbfuAT/B2sMfcXqPzq3zXtM4XSsNOpeXxT3OKqZGBYiPVFHEAanRkwd/21PA/9rBwH4cLMQfA==}</smtpPassword>
     <useSsl>true</useSsl>
   </mailAccount>
   <addAccounts/>

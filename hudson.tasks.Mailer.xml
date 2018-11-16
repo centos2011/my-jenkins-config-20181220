@@ -1,7 +1,7 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson.tasks.Mailer_-DescriptorImpl plugin="mailer@1.22">
   <smtpAuthUsername>AKIAJE3CYWW2RN7EDZPQ</smtpAuthUsername>
-  <smtpAuthPassword>{AQAAABAAAAAwEZOkmCO6PF2QB6n8PMqBIzytXMzuoRo+qSCW9b8grG8fhwJMwxBpTEHlwaun3jlxquNUg918N9n9/phf4Mr58A==}</smtpAuthPassword>
+  <smtpAuthPassword>{AQAAABAAAAAwarUPB/rtlOT8Mu2jmlkEHmZ/5RXq+XGntWN8YD+oeIW8xutt68Y7EZ9dw9vkp089Q5E5L/9uiy9rSjOu2jCm6w==}</smtpAuthPassword>
   <smtpHost>email-smtp.us-east-1.amazonaws.com</smtpHost>
   <useSsl>false</useSsl>
   <smtpPort>587</smtpPort>
