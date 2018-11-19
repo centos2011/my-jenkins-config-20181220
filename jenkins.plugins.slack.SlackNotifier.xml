@@ -3,7 +3,7 @@
   <baseUrl>https://slack-djworkspace.slack.com/services/hooks/jenkins-ci/</baseUrl>
   <teamDomain></teamDomain>
   <token></token>
-  <tokenCredentialId>084478c3-147d-42fc-bc44-a79fdca280bd</tokenCredentialId>
+  <tokenCredentialId></tokenCredentialId>
   <botUser>false</botUser>
   <room>#jenkins</room>
 </jenkins.plugins.slack.SlackNotifier_-DescriptorImpl>
