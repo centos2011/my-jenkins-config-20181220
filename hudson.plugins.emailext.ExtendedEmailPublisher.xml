@@ -4,7 +4,7 @@
     <smtpHost>smtp.gmail.com</smtpHost>
     <smtpPort>465</smtpPort>
     <smtpUsername>dennis.joson@pdax.ph</smtpUsername>
-    <smtpPassword>{AQAAABAAAACQw0FQZvfvFn7HpWdIHwgmbhXaprQv0yerrStICadTMRu3O+Bvt6htBEXuYV6oXRGeYgnJyYS510QFx98pFWd0GK/7qu30kXthDY62jfKwdzmTH5bPOuo5hn0faI6lR8XMrb7LnE8utuHs4qXZ+JOcaNJL2Oum8Q4oYKORq1uOUi+EgBMR+x2zyiBs8m5jlIujkkbZlQyPboXHB+scGdL0Lw==}</smtpPassword>
+    <smtpPassword>{AQAAABAAAADwtwx+nBIfFKdm4Y8kRHkAUPhyIrEgLV8+UbjEVMYkosgmIXl1zSD7m24+/PNxWZm+yEKOrMHKDUgoeK4kNak6IQhUCCxG8UaokQ6bqKS7uz27EjwOz1pWFjBVRA1qIL9O+xza88Tvo7WDt+lhBYlRheqsivcbTTsWQh8Jua8Pjfjk9rseAw0oaR9oZfjB+bwWIvtSmyV08aeGGRCr7RkYHliV1+hslOQRoXPW/IYUNXrO+OYza+XVtXmrsdKru2efv6fCIHaP9yKZlnp/2chWvUnT1zO+aTzJLde7S8nds6bSVd7ApB3PEnjfNOb768EvRFWcVwdhGgNy50HEgPUuoA==}</smtpPassword>
     <useSsl>true</useSsl>
   </mailAccount>
   <addAccounts/>
